@@ -160,6 +160,8 @@ Missing values
 ==============
 If you have an unknown value in your table, replace it with the string 'MISSING' and that cell won't output a line in the CSV.
 
-Known issues
-============
-Header names can't contain commas, and neither can the row or column names.
+Known issues and Limitations
+============================
+* Header names can't contain commas, and neither can the row or column names.
+* No spaces allowed in cells or headers! Unless we moved to pure tab-based delimiting... Then it would be NO TABS IN CELLS OR
+  HEADERS!
